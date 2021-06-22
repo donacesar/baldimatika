@@ -1,0 +1,122 @@
+body {
+	padding-top: 3%; 
+	padding-left: 8%;
+	padding-right: 8%;
+	background-color: #222222; /* Цвет фона */
+	background: url(bg.png) no-repeat center center fixed; /* Путь к файлу */
+	background-size: cover; /* Масштабировать фон */
+	color: #ddd; /* Цвет текста */
+	font-family: monospace; /* Установили ШРИФТ */
+	font-size: 480%; /* Размер букв */
+	font-style: oblique; /* Наклон букв */
+}
+.body-level {
+	background: url(bg-level.png) no-repeat center center fixed; /* Путь к файлу */
+	background-size: cover; /* Масштабировать фон */
+
+}
+a {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+a:active {
+	color: white;
+}
+
+a:visited {
+	color: #aaa;
+}
+
+/*p {
+	width: 55%;
+	padding-left: 1%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	border-style: dotted;
+	border-color: gray;
+	border-width: 2px;
+	color: white;
+
+}*/
+
+.leftimg {
+	
+	float: left;
+	margin: 7px, 7px, 7px, 7px;
+
+}
+
+
+.C_of_P {
+	border: 2px groove #667d6c;
+	border-radius: 45px;
+	/*margin: auto;
+	widht: auto;*/
+	padding: 20px;
+	box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);
+
+}
+
+.red_shadow {
+	text-shadow: 1px 1px 2px black, 0 0 1em red;
+	text-decoration : blink;
+}
+.grey_shadow {
+	text-shadow: 1px 1px 2px grey, 0 0 1em grey;
+	text-decoration : blink;
+	box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);
+}
+
+.red_text {
+	color: red !important;
+}
+
+.shadow-1{
+  display: inline-block;
+  box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);
+}
+
+.align_center {
+
+	align-content: center;
+	margin: 0;
+	margin:0 auto;
+}
+.main-block {
+	background-color: #1f211d; 
+	margin: 0;
+	width: 750px;
+	margin:0 auto;
+}
+.index_buttons {
+	width: 400px;
+	margin:0 auto;
+	color: white;
+	margin-top: 90px;
+}
+.final-block {
+	background-color: #1f211d; 
+	margin: 0;
+	margin:0 auto;
+	width: 750px;
+	height: 512px;
+}
+
+.statement {
+	background-color: #1f211d;
+	margin: 0;
+	margin:0 auto;
+	color:white;
+	margin-top: 10px;
+	margin-left: 200px;
+	height: 150px;
+	text-align: center;
+	padding: 10px;
+	border: 2px groove #667d6c;
+	border-radius: 45px;
+	box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);
+}
