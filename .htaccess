@@ -1,0 +1,6 @@
+RewriteEngine off
+RewriteBase /
+
+#AddDefaultCharset UTF-8
+#Redirect /index.php /test.php
+#RewriteRule ^dir/(.*) index.php
